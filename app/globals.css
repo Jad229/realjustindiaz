@@ -1,5 +1,32 @@
+:root {
+  --primary: #00eee0;
+  --secondary: #ffbb0b;
+  --background: #1e1e1e;
+  --softTextColor: #757575;
+  --textColor: #ececec;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--textColor);
+}
+
+a {
+  text-decoration: none;
+  color: var(--softTextColor);
+}
+
+a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.layoutWrapper {
+  display: flex;
 }
