@@ -1,0 +1,29 @@
+.scroller {
+  position: sticky;
+  align-items: center;
+  right: 40px;
+  max-height: 100vh;
+  overflow: hidden;
+  mask: linear-gradient(transparent, white 20%, white 80%, transparent);
+  -webkit-mask: linear-gradient(transparent, white 20%, white 80%, transparent);
+}
+
+.innerScroller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  animation: scroll 10s linear infinite;
+  width: max-content;
+  height: max-content;
+}
+
+.scrollerImage {
+  transform: translateY(-22px);
+}
+
+@keyframes scroll {
+  to {
+    transform: translateY(calc(-50% + 22px));
+  }
+}

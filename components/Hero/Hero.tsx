@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./hero.module.css";
 
 export const Hero = () => {
@@ -10,6 +11,14 @@ export const Hero = () => {
           Full-Stack Developer. Kaizen Practictioner. Forever Learner.
         </p>
       </div>
+
+      <Image
+        className={styles.kaizen}
+        src="/images/kaizen.png"
+        alt="kaizen"
+        width={150}
+        height={150}
+      />
     </div>
   );
 };
