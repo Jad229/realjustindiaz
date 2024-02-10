@@ -30,3 +30,7 @@ a:hover {
 .layoutWrapper {
   display: flex;
 }
+
+section {
+  margin-inline: 100px;
+}

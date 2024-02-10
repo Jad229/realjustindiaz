@@ -1,8 +1,5 @@
 .container {
-  display: flex;
-  flex-direction: column;
   width: 100vw;
   height: 100vh;
-  padding-left: 20px;
   background: 15% 5% no-repeat url("/images/cyber-plus.svg");
 }

@@ -1,5 +1,5 @@
 .scroller {
-  position: sticky;
+  position: fixed;
   align-items: center;
   right: 40px;
   max-height: 100vh;
