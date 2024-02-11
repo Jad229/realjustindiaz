@@ -12,13 +12,12 @@
 
 .title {
   font-size: 4rem;
-  margin-block: 100px;
   text-align: center;
 }
 
 .desc {
   font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   color: var(--textColor);
   line-height: 30px;

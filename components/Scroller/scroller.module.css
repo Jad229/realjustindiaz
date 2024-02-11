@@ -1,6 +1,5 @@
 .scroller {
   position: fixed;
-  align-items: center;
   right: 40px;
   max-height: 100vh;
   overflow: hidden;
@@ -11,7 +10,6 @@
 .innerScroller {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-wrap: nowrap;
   animation: scroll 10s linear infinite;
   width: max-content;

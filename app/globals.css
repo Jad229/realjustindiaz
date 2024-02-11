@@ -30,10 +30,12 @@ a:hover {
 
 .layoutWrapper {
   display: flex;
+  flex-direction: column;
 }
 
 section {
   margin-inline: 100px;
+  height: 100vh;
 }
 
 @media screen and (max-width: 648px) {

@@ -1,5 +1,10 @@
-import React from "react";
+import styles from "./footer.module.css";
 
 export const Footer = () => {
-  return <div>Footer</div>;
+  const time = new Date().getFullYear();
+  return (
+    <footer className={styles.container}>
+      <p>© {time} Justin Diaz - Kaizen Coder</p>
+    </footer>
+  );
 };

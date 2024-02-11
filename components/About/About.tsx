@@ -33,6 +33,7 @@ export const About = () => {
           and I'm a Software Engineer on an unwavering journey to master the
           craft of programming.
         </p>
+        <br />
         <p className={styles.desc}>
           In my development journey, I'm not just focused on building
           applications; I'm dedicated to embodying the philosophy of
