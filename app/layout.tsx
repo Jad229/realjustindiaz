@@ -10,7 +10,7 @@ const ZenDots = Zen_Dots({
 });
 
 export const metadata: Metadata = {
-  title: "Justin Diaz",
+  title: "Justin Diaz | Portfolio",
   description: "Portfolio of Justin Diaz",
 };
 
@@ -21,10 +21,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logo.svg" sizes="32x32" />
-        <link rel="icon" href="/logo.svg" type="image/x-icon" />
-      </head>
       <body className={ZenDots.className}>
         <div className="layoutWrapper">
           <Navbar />
