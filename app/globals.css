@@ -1,6 +1,6 @@
 :root {
   --primary: #00eee0;
-  --secondary: #ffbb0b;
+  --secondary: #f34841;
   --background: #1e1e1e;
   --softTextColor: #757575;
   --textColor: #ececec;
@@ -35,7 +35,6 @@ a:hover {
 
 section {
   margin-inline: 100px;
-  height: 100vh;
 }
 
 @media screen and (max-width: 648px) {
