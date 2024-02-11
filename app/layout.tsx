@@ -21,10 +21,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logo.ico" sizes="32x32" />
-        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
-      </head>
       <body className={ZenDots.className}>
         <div className="layoutWrapper">
           <Navbar />
