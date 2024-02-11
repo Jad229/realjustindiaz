@@ -40,4 +40,7 @@ section {
   .layoutWrapper {
     flex-direction: column;
   }
+  section {
+    margin-inline: 20px;
+  }
 }
