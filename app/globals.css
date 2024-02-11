@@ -1,6 +1,6 @@
 :root {
   --primary: #00eee0;
-  --secondary: #ffbb0b;
+  --secondary: #f34841;
   --background: #1e1e1e;
   --softTextColor: #757575;
   --textColor: #ececec;
@@ -20,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--softTextColor);
+  color: var(--textColor);
 }
 
 a:hover {
@@ -30,8 +30,18 @@ a:hover {
 
 .layoutWrapper {
   display: flex;
+  flex-direction: column;
 }
 
 section {
   margin-inline: 100px;
+}
+
+@media screen and (max-width: 648px) {
+  .layoutWrapper {
+    flex-direction: column;
+  }
+  section {
+    margin-inline: 20px;
+  }
 }

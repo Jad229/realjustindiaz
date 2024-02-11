@@ -18,17 +18,17 @@ function Project({ name, description, image, github, link }: ProjectProps) {
         <Image
           className={styles.cyberBanner}
           src="images/line-break.svg"
-          width={600}
-          height={100}
+          width={10}
+          height={10}
           alt="line-break"
         />
         <h2 className={styles.projectTitle}>{name}</h2>
         <p className={styles.desc}>{description}</p>
         <div className={styles.linkContainer}>
-          <Link className={styles.link} href={link}>
+          <Link target="_blank" className={styles.link} href={link}>
             View Project
           </Link>
-          <Link className={styles.link} href={github}>
+          <Link target="_blank" className={styles.link} href={github}>
             View Repo
           </Link>
         </div>
