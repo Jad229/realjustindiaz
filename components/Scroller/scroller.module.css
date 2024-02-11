@@ -27,3 +27,16 @@
     transform: translateY(calc(-50% + 27px));
   }
 }
+
+/* breakpoints 
+1280px
+1024px
+768px
+648px
+*/
+
+@media screen and (max-width: 768px) {
+  .scroller {
+    display: none;
+  }
+}

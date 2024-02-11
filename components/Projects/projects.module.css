@@ -4,10 +4,12 @@
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  gap: 25px;
 }
 
 .title {
   font-size: 64px;
+  margin-bottom: 50px;
 }
 
 .projectList {
@@ -20,20 +22,23 @@
   font-weight: 600;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 50px;
-  height: 75vh;
+}
+
+.cyberBanner {
+  width: 100%;
+  height: 100px;
 }
 
 .textContainer {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  flex: 1;
 }
 
 .projectTitle {
-  font-size: 32px;
+  font-size: 2.5rem;
 }
 
 .desc {
@@ -56,7 +61,7 @@
   background-color: var(--primary);
   width: max-content;
   padding: 20px;
-  clip-path: polygon(0 0, 100% 0, 100% 65%, 90% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 87% 100%, 0 100%);
 }
 
 .link:hover {
@@ -65,9 +70,9 @@
 }
 
 .imgContainer {
-  position: relative;
-  aspect-ratio: 16/9;
   flex: 1;
+  aspect-ratio: 16/9;
+  position: relative;
 }
 
 .image {
@@ -75,10 +80,35 @@
   border-radius: 20px;
 }
 
-.cyberBanner {
-  animation: growIn 3s linear;
-}
-
 #projects {
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 3rem;
+  }
+  .project {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .cyberBanner {
+    width: 100%;
+  }
+  .projectList {
+    width: 100vw;
+  }
+  .textContainer {
+    width: 100vw;
+    padding-inline: 20px;
+  }
+
+  .projectTitle {
+    font-size: 2rem;
+  }
+  .imgContainer {
+    display: none;
+  }
 }

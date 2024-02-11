@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./navbar.module.css";
 import Link from "next/link";
+import { HamburgerMenu } from "../HamburgerMenu/HamburgerMenu";
 
 export const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ export const Navbar = () => {
       <div className={styles.logoContainer}>
         <Image
           className={styles.logo}
-          src="/images/logo.png"
+          src="/images/logo.svg"
           alt="justin logo"
           width={100}
           height={100}
@@ -38,6 +39,7 @@ export const Navbar = () => {
           alt="linkedin"
         />
       </div>
+      <HamburgerMenu />
     </div>
   );
 };

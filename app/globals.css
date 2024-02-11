@@ -20,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--softTextColor);
+  color: var(--textColor);
 }
 
 a:hover {
@@ -34,4 +34,10 @@ a:hover {
 
 section {
   margin-inline: 100px;
+}
+
+@media screen and (max-width: 648px) {
+  .layoutWrapper {
+    flex-direction: column;
+  }
 }

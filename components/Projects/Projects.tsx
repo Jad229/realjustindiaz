@@ -18,8 +18,8 @@ function Project({ name, description, image, github, link }: ProjectProps) {
         <Image
           className={styles.cyberBanner}
           src="images/line-break.svg"
-          width={600}
-          height={100}
+          width={10}
+          height={10}
           alt="line-break"
         />
         <h2 className={styles.projectTitle}>{name}</h2>

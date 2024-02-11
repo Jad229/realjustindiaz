@@ -19,7 +19,7 @@
   right: -50px;
   z-index: -1;
   position: absolute;
-  font-size: 150px;
+  font-size: 9rem;
   color: var(--background);
   -webkit-text-stroke: var(--textColor) 2px;
 }
@@ -40,4 +40,27 @@
   position: absolute;
   right: 400px;
   bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroTitle {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 4rem;
+  }
+
+  .heroKaizen {
+    font-size: 7rem;
+    top: -110px;
+    left: -250px;
+  }
+
+  .kaizen {
+    right: 5px;
+    bottom: 100px;
+  }
 }
