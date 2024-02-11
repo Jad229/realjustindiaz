@@ -19,11 +19,11 @@
 }
 
 .scrollerImage {
-  transform: translateY(-22px);
+  transform: translateY(-27px);
 }
 
 @keyframes scroll {
   to {
-    transform: translateY(calc(-50% + 22px));
+    transform: translateY(calc(-50% + 27px));
   }
 }
